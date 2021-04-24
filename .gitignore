@@ -58,3 +58,11 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+
+Boost Game Jam/Library/
+Boost Game Jam/Temp/
+Boost Game Jam/Obj/
+Boost Game Jam/Build/
+Boost Game Jam/Builds/
+Boost Game Jam/Logs/
+Boost Game Jam/MemoryCaptures/
