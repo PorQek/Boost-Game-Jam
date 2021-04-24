@@ -29,6 +29,7 @@ public class PlayerGravityBody : MonoBehaviour {
 
             Debug.Log("skok");
             attractorPlanet = other.GetComponent<PlanetScript>();
+            gameObject.transform.parent = attractorPlanet.transform;
             
         }
 
