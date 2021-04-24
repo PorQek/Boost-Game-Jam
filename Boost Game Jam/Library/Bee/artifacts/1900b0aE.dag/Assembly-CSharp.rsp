@@ -338,12 +338,16 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
-"Assets/Alex/Rotation.cs"
-"Assets/Alex/SampleScenes/Scripts/LevelReset.cs"
-"Assets/Alex/SkryptyPlanetka/Movement.cs"
-"Assets/Alex/SkryptyPlanetka/PlanetScript.cs"
-"Assets/Alex/SkryptyPlanetka/PlayerGravityBody.cs"
-"Assets/Alex/SkryptyPlanetka/PlayerMovementScript.cs"
+"Assets/Alex/Scenes/SampleScenes/Scripts/LevelReset.cs"
+"Assets/Alex/Scripts/CameraFollow.cs"
+"Assets/Alex/Scripts/Checkpoint.cs"
+"Assets/Alex/Scripts/LevelManager.cs"
+"Assets/Alex/Scripts/PlayerLife.cs"
+"Assets/Alex/Scripts/Rotation.cs"
+"Assets/Alex/Scripts/SkryptyPlanetka/Movement.cs"
+"Assets/Alex/Scripts/SkryptyPlanetka/PlanetScript.cs"
+"Assets/Alex/Scripts/SkryptyPlanetka/PlayerGravityBody.cs"
+"Assets/Alex/Scripts/SkryptyPlanetka/PlayerMovementScript.cs"
 -langversion:8.0
 
 /deterministic
