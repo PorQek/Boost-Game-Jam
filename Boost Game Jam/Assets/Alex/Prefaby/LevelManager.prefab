@@ -45,6 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentCheckpoint: {fileID: 0}
+  start: {fileID: 0}
+  TimeToDisplay: 2
 --- !u!114 &2547920838649433346
 MonoBehaviour:
   m_ObjectHideFlags: 0
