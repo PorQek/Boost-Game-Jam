@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlanetScript : MonoBehaviour {
 
-    public float gravity = -12;
+    public float gravity = -50;
 
     public void Attract(Transform playerTransform)
     {

@@ -9,6 +9,10 @@ public class Movement : MonoBehaviour
     private Vector2 moveDir;
     public Rigidbody2D rb;
     private bool facingRight;
+    public static bool CanRun=false;
+    
+    
+    
 
     // Start is called before the first frame update
     void Start()
@@ -30,19 +34,26 @@ public class Movement : MonoBehaviour
        float horizontal = Input.GetAxis ("Horizontal");
 	
 			Flip (horizontal);
-        if(Input.GetKey("right"))
+        if(Input.GetKey("right")&& CanRun==true)
  {
     rb.AddForce(transform.right * speed);
+    animator.SetBool("Run",true);
  }
- if(Input.GetKey("left"))
+ 
+ if(Input.GetKey("left")&& CanRun==true)
  {
     rb.AddForce(transform.right * -1 * speed);
+    animator.SetBool("Run",true);
  }
- if(Input.GetKey("up"))
+
+
+ if(Input.GetKey("up")&&CanRun==true)
  {
-    rb.AddForce(transform.up * speed*5);
+   
+    rb.AddForce(transform.up*30,ForceMode2D.Impulse );
 
 					animator.SetBool("Jump",true); 
+               
  }
             else 
 				{
@@ -50,11 +61,8 @@ public class Movement : MonoBehaviour
 				
 
  }
- if(Input.GetKey("right")||Input.GetKey("left"))
-				{
-					animator.SetBool("Run",true); 
-				}
-            if(Input.GetAxisRaw("Horizontal")==0)
+
+            if(Input.GetAxisRaw("Horizontal")==0 || CanRun==false)
 				{
 					animator.SetBool("Run",false); 
 				}
@@ -82,5 +90,26 @@ private void Flip(float horizontal)
 
 		}
 	}
+   void OnTriggerStay2D(Collider2D other)
+		{
+            
+		if (other.tag=="Check") {
+
+         rb.drag=10f;
+            
+            
+        }
+      }
+        void OnTriggerExit2D(Collider2D other)
+		{
+            
+		if (other.tag=="Check") {
+
+         rb.drag=0f;
+            
+            
+        }
+      
+      }
 }
 
