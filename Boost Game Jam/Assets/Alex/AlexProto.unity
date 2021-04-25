@@ -556,6 +556,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97e5b389dabba460a97ec1c8c8e2419e, type: 3}
+--- !u!82 &1843248413 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1843248413, guid: 0377dd5d4502949cab26b411d8aad19c, type: 3}
+  m_PrefabInstance: {fileID: 470878030}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2080314976 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8315746535042095674, guid: 97e5b389dabba460a97ec1c8c8e2419e, type: 3}
@@ -875,17 +880,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4252494106188112515, guid: 29983688139a64e1baaa50cb5cbb6943, type: 3}
+      propertyPath: Source
+      value: 
+      objectReference: {fileID: 1843248413}
     - target: {fileID: 9128032897734824068, guid: 29983688139a64e1baaa50cb5cbb6943, type: 3}
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 9128032897734824068, guid: 29983688139a64e1baaa50cb5cbb6943, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.63
+      value: 14.2
       objectReference: {fileID: 0}
     - target: {fileID: 9128032897734824068, guid: 29983688139a64e1baaa50cb5cbb6943, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 20.21182
+      value: 11.1
       objectReference: {fileID: 0}
     - target: {fileID: 9128032897734824068, guid: 29983688139a64e1baaa50cb5cbb6943, type: 3}
       propertyPath: m_LocalPosition.z
