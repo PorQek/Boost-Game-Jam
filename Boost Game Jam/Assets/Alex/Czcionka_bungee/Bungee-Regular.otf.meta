@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: ade9b0e9dea0f4ed1aac77ff30d62d56
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Bungee
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5db740b9743c74618b752126d94bbfae, type: 3}
+  - {fileID: 12800000, guid: 61c562f04a7724c8f9c32e1c3be47bfb, type: 3}
+  - {fileID: 12800000, guid: e347eb95521204c2da4c2e52721e18b8, type: 3}
+  - {fileID: 12800000, guid: b9007ffeff40642999b0fdde796638cc, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
