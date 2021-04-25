@@ -5,6 +5,8 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     public int Points;
+    public AudioClip CoinBoing;
+	public AudioSource Source;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,7 @@ public class Coin : MonoBehaviour
 		if (other.tag=="Player") {
 
             Debug.Log("coin");
+            Source.PlayOneShot(CoinBoing);
             Bank.score=Bank.score + Points;
             Destroy(gameObject);
             
