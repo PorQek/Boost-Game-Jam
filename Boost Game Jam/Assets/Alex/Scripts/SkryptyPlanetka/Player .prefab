@@ -170,8 +170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c79e93eab6a48dcbaae61fcc244e15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!60 &216086625
-PolygonCollider2D:
+--- !u!70 &1047531278755452124
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
